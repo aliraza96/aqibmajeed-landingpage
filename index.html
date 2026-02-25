@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aqib Majeed — Full Stack Mobile & Web Developer</title>
+  <meta name="description"
+    content="Aqib Majeed is a Full Stack Developer with 5+ years of experience specializing in end-to-end mobile and web solutions across health, fitness, e-commerce, education, and more.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo"><span class="logo-icon">AM</span><span class="logo-text">Aqib Majeed</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#tech-stack">Tech Stack</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#qa">Quality Assurance</a>
+        <a href="#clients">Clients</a>
+        <a href="https://calendly.com/alibilcg/30min" target="_blank" rel="noopener" class="nav-cta">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+            <line x1="16" y1="2" x2="16" y2="6" />
+            <line x1="8" y1="2" x2="8" y2="6" />
+            <line x1="3" y1="10" x2="21" y2="10" />
+          </svg>
+          Book a Meeting
+        </a>
+      </div>
+      <button class="nav-toggle" id="navToggle"
+        aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section class="hero section" id="hero">
+    <div class="container">
+      <div class="hero-content fade-in">
+        <div class="hero-badge">
+          <svg viewBox="0 0 16 16" fill="none">
+            <path d="M8 1l2 5h5l-4 3 1.5 5L8 11l-4.5 3L5 9 1 6h5L8 1z" fill="#00C2FF" />
+          </svg>
+          5+ Years of Excellence
+        </div>
+        <h1 class="hero-title">Full Stack Developer<br><span class="accent-text">Mobile & Web Solutions</span></h1>
+        <p class="hero-description">I specialize in end-to-end mobile and web development across health, fitness, food,
+          e-commerce, CRM, education, and travel & tourism. From design to deployment on App Store and Google Play.</p>
+        <div class="hero-actions">
+          <a href="https://calendly.com/alibilcg/30min" target="_blank" rel="noopener" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+            Schedule a Meeting
+          </a>
+          <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+        </div>
+      </div>
+      <div class="hero-visual fade-in-right">
+        <div class="hero-image-wrapper">
+          <img src="assets/aqib-profile.jpg" alt="Aqib Majeed — Full Stack Developer" class="hero-photo">
+          <div class="hero-float-badge badge-1">
+            <div class="float-icon" style="background:rgba(0,194,255,0.15);"><svg viewBox="0 0 24 24" fill="none"
+                stroke="#00C2FF" stroke-width="2" width="18" height="18">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg></div>
+            <div><strong>30+</strong><br><span>Apps Delivered</span></div>
+          </div>
+          <div class="hero-float-badge badge-2" style="animation-delay:1.5s;">
+            <div class="float-icon" style="background:rgba(16,185,129,0.15);"><svg viewBox="0 0 24 24" fill="none"
+                stroke="#10B981" stroke-width="2" width="18" height="18">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg></div>
+            <div><strong>5+ Years</strong><br><span>Experience</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT / SERVICES ============ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title">End-to-End Development <span class="accent-text">Expert</span></h2>
+        <p class="section-subtitle">I provide a comprehensive solution, managing the app from design to development and
+          deployment on the App Store and Google Play.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-icon" style="background:rgba(0,194,255,0.12);"><svg viewBox="0 0 24 24" fill="none"
+              stroke="#00C2FF" stroke-width="2" width="24" height="24">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+              <line x1="12" y1="18" x2="12.01" y2="18" />
+            </svg></div>
+          <h3>Mobile Development</h3>
+          <p>Native and cross-platform apps for iOS & Android using React Native, SwiftUI, and Kotlin.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon" style="background:rgba(37,99,235,0.12);"><svg viewBox="0 0 24 24" fill="none"
+              stroke="#2563EB" stroke-width="2" width="24" height="24">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg></div>
+          <h3>Web Development</h3>
+          <p>Modern, responsive web applications built with React and Node.js for optimal performance.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon" style="background:rgba(16,185,129,0.12);"><svg viewBox="0 0 24 24" fill="none"
+              stroke="#10B981" stroke-width="2" width="24" height="24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg></div>
+          <h3>App Store Deployment</h3>
+          <p>Complete App Store and Google Play submission, approval, and launch management.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon" style="background:rgba(168,85,247,0.12);"><svg viewBox="0 0 24 24" fill="none"
+              stroke="#A855F7" stroke-width="2" width="24" height="24">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg></div>
+          <h3>Quality Assurance</h3>
+          <p>Multi-layered QA approach with integration, regression, performance, and security testing.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon" style="background:rgba(239,68,68,0.12);"><svg viewBox="0 0 24 24" fill="none"
+              stroke="#EF4444" stroke-width="2" width="24" height="24">
+              <line x1="12" y1="1" x2="12" y2="23" />
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+            </svg></div>
+          <h3>Payment Integration</h3>
+          <p>Stripe, Tap Payment, Apple Pay, Google Pay, and subscription management.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon" style="background:rgba(14,165,233,0.12);"><svg viewBox="0 0 24 24" fill="none"
+              stroke="#0EA5E9" stroke-width="2" width="24" height="24">
+              <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+            </svg></div>
+          <h3>Cloud & Backend</h3>
+          <p>Firebase, Supabase, AWS, and MongoDB for scalable, secure backend infrastructure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TECH STACK ============ -->
+  <section class="tech-stack section" id="tech-stack">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">Technologies</p>
+        <h2 class="section-title">My <span class="accent-text">Tech Stack</span></h2>
+        <p class="section-subtitle">Frameworks and platforms I use to build secure, scalable, and performant
+          applications.</p>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-group fade-in">
+          <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+              <line x1="12" y1="18" x2="12.01" y2="18" />
+            </svg> Mobile</h4>
+          <div class="stack-tags"><span class="stack-tag">React Native</span><span class="stack-tag">SwiftUI</span><span
+              class="stack-tag">Kotlin</span><span class="stack-tag">Swift</span><span class="stack-tag">Java</span>
+          </div>
+        </div>
+        <div class="stack-group fade-in">
+          <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg> Frontend & Backend</h4>
+          <div class="stack-tags"><span class="stack-tag">React</span><span class="stack-tag">Node.js</span></div>
+        </div>
+        <div class="stack-group fade-in">
+          <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+            </svg> Cloud Platforms</h4>
+          <div class="stack-tags"><span class="stack-tag">AWS</span><span class="stack-tag">Firebase</span><span
+              class="stack-tag">Supabase</span><span class="stack-tag">MongoDB</span></div>
+        </div>
+        <div class="stack-group fade-in">
+          <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+              <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
+              <line x1="1" y1="10" x2="23" y2="10" />
+            </svg> Payment Gateways</h4>
+          <div class="stack-tags"><span class="stack-tag">Stripe</span><span class="stack-tag">Tap Payment</span><span
+              class="stack-tag">Apple Pay</span><span class="stack-tag">Google Pay</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO (Accordion) ============ -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">Portfolio</p>
+        <h2 class="section-title">Apps I've <span class="accent-text">Built</span></h2>
+        <p class="section-subtitle">30+ apps successfully delivered across diverse industries and published on App Store
+          & Google Play.</p>
+      </div>
+
+      <div class="portfolio-controls fade-in">
+        <button class="toggle-all-btn" id="toggleAllBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" width="16" height="16">
+            <polyline points="6 9 12 15 18 9" />
+          </svg> Expand All</button>
+      </div>
+
+      <div class="portfolio-accordion fade-in" id="portfolioAccordion">
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                </svg></div>
+              <h3>Health & Fitness <span class="app-count">· 7 apps</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>Tiger Medical Institute</h4>
+                  <p>Leading health provider — Aura Ring, health monitoring, newsletters, gamification.</p>
+                  <div class="project-links"><a href="https://tigermi.com/" target="_blank" rel="noopener">Website</a><a
+                      href="https://apps.apple.com/us/app/tiger-medical-institute/id1562637651" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.americanresolvemobile.tigermedicalinstitute"
+                      target="_blank" rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>FitGroup USA</h4>
+                  <p>Instructors, locations & users. Maps, reviews, class booking, Stripe payments.</p>
+                  <div class="project-links"><a href="https://www.fitgroupusa.com" target="_blank"
+                      rel="noopener">Website</a><a
+                      href="https://apps.apple.com/us/app/fitgroup-usa-fitness-classes/id6473685168" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.arm.fgusa.android&hl=en_US"
+                      target="_blank" rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>SeniorFit At-Home Workouts</h4>
+                  <p>Fitness routines tailored for older adults, anytime, anywhere.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/us/app/seniorfit-at-home-workouts/id6448442932" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.seniorfit.pdf" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>TAPfit</h4>
+                  <p>Dance fitness with tap dancing, low-impact workouts, meal plans, progress tracking.</p>
+                  <div class="project-links"><a href="https://www.shoptapfit.com" target="_blank"
+                      rel="noopener">Website</a><a
+                      href="https://apps.apple.com/us/app/tapfit-dance-fitness-recipes/id1617628668" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.tapfit&hl=en" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Corecircle: Social Fitness</h4>
+                  <p>Workout logging, goals, routines, and a community "For You" page.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/us/app/corecircle-social-fitness/id1553742219" target="_blank"
+                      rel="noopener">App Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>SeniorFit Online</h4>
+                  <p>TV app personalizing at-home fitness plans for older adults.</p>
+                  <div class="project-links"><a href="https://apps.apple.com/us/app/seniorfit-online/id1626285656"
+                      target="_blank" rel="noopener">App Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Sound Machine: Relaxing Sounds</h4>
+                  <p>Soothing sounds, meditations, therapeutic frequencies, and timers.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/us/app/calm-meditation-sleep-sounds/id1552833920" target="_blank"
+                      rel="noopener">App Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <path
+                    d="M12 2a4 4 0 0 1 4 4v2h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h2V6a4 4 0 0 1 4-4z" />
+                  <circle cx="12" cy="14" r="2" />
+                </svg></div>
+              <h3>AI Apps <span class="app-count">· 5 apps</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>AI Email Writer</h4>
+                  <p>AI-powered email and letter composition with smart writing assistance.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/us/app/ai-email-writer-letter-writer/id6739558115" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.writing.ai.email.assistant&gl=us&hl=en"
+                      target="_blank" rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Reply Agent</h4>
+                  <p>Smart customer communication automation with CRM integration.</p>
+                  <div class="project-links"><a href="https://www.replyagent.com" target="_blank"
+                      rel="noopener">Website</a><a href="https://apps.apple.com/pk/app/reply-agent-go/id6742822250"
+                      target="_blank" rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.replyagent.app&pli=1" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Hello Bible AI</h4>
+                  <p>Explore scripture with AI — insights, devotionals, and study tools.</p>
+                  <div class="project-links"><a href="https://www.hellobible.ai/en" target="_blank"
+                      rel="noopener">Website</a><a
+                      href="https://apps.apple.com/us/app/hellobible-bible-interactive/id6502768944" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.hellobible.app&hl=fr" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Help Genie</h4>
+                  <p>AI-powered assistant platform for smart help and guidance.</p>
+                  <div class="project-links"><a href="https://helpgenie.ai/" target="_blank" rel="noopener">Website</a>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <h4>Quiz AI for Google Classroom</h4>
+                  <p>AI quiz generation from documents for teaching and studying.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/us/app/quiz-ai-for-google-classroom/id6502432246" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.ai.quiz.generator" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                </svg></div>
+              <h3>Education <span class="app-count">· 2 apps</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>Epic Schools</h4>
+                  <p>Classroom management — attendance, admissions, absence requests, reports.</p>
+                  <div class="project-links"><a href="https://epicschools.app" target="_blank"
+                      rel="noopener">Website</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Form For Google Forms & Docs</h4>
+                  <p>Create and manage Google Forms with drag-and-drop and AI suggestions.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/us/app/form-for-google-forms-docs/id6502432790" target="_blank"
+                      rel="noopener">App Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <line x1="12" y1="1" x2="12" y2="23" />
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                </svg></div>
+              <h3>Fintech & Crypto <span class="app-count">· 3 apps</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>NxGen Crypto</h4>
+                  <p>Crypto app backed by Ministry of Science, Kuwait. Trades and portfolio tools.</p>
+                  <div class="project-links"><a href="https://apps.apple.com/us/app/nxgen-crypto/id1586579961"
+                      target="_blank" rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.eblock6.nextgen" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Save X</h4>
+                  <p>Build saving habits and manage your finances smartly.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/us/app/savex-build-saving-habits/id6756962622" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.savex.savings" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Definance</h4>
+                  <p>Financial analytics, CRM tools, bookkeeping, dashboards, automation.</p>
+                  <div class="project-links"><a href="https://definance.one" target="_blank" rel="noopener">Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <circle cx="12" cy="10" r="3" />
+                  <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z" />
+                </svg></div>
+              <h3>Travel & Tourism <span class="app-count">· 2 apps</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>Drive Locations AU</h4>
+                  <p>Explore Australia — maps, reviews, events, and route directions.</p>
+                  <div class="project-links"><a href="https://www.drivelocations.com" target="_blank"
+                      rel="noopener">Website</a><a href="https://apps.apple.com/us/app/drive-locations-au/id1497682944"
+                      target="_blank" rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.codegradients.drivelocationsau"
+                      target="_blank" rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Apprenaline</h4>
+                  <p>Map-based adventure booking. Discover, book, organize trips, and chat.</p>
+                  <div class="project-links"><a href="https://apprenaline.com" target="_blank"
+                      rel="noopener">Website</a><a href="https://apps.apple.com/us/app/apprenaline/id6476006091"
+                      target="_blank" rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.apprenaline.app" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <polygon points="23 7 16 12 23 17 23 7" />
+                  <rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
+                </svg></div>
+              <h3>Media & Entertainment <span class="app-count">· 2 apps</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>Digital City Radio</h4>
+                  <p>Funky SX — 24/7 urban music, live shows, schedule, and 7-day replay.</p>
+                  <div class="project-links"><a href="https://apps.apple.com/us/app/funky-sx-radio-app/id1488511074"
+                      target="_blank" rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.codegradients.funkysx" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>KIP Audio Platform</h4>
+                  <p>Electronic music — artists, listeners, genre/mood filtering, analytics.</p>
+                  <div class="project-links"><a href="https://kip.audio" target="_blank" rel="noopener">Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg></div>
+              <h3>Social & Community <span class="app-count">· 2 apps</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>WAVE</h4>
+                  <p>Social network for meeting people IRL — lunch, hangouts, or a chat.</p>
+                  <div class="project-links"><a href="https://apps.apple.com/us/app/wave-25/id6744390619"
+                      target="_blank" rel="noopener">App Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Bookworm Reads</h4>
+                  <p>Book lovers community — track reading, share reviews, connect.</p>
+                  <div class="project-links"><a href="https://apps.apple.com/pk/app/bookworm-reads/id1574582016"
+                      target="_blank" rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.bookwormreads" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+                  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+                  <line x1="6" y1="1" x2="6" y2="4" />
+                  <line x1="10" y1="1" x2="10" y2="4" />
+                  <line x1="14" y1="1" x2="14" y2="4" />
+                </svg></div>
+              <h3>Food & Delivery <span class="app-count">· 1 app</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>HealthyBox</h4>
+                  <p>Healthy meal subscription for weight management. Pre-planned meals.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/us/app/healthybox-%D8%B5%D8%AD%D9%89-%D8%A8%D9%88%DA%A9%D8%B3/id1644641164"
+                      target="_blank" rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=block6.com.healthybox" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                  <path d="M2 12h20" />
+                </svg></div>
+              <h3>Sports & Booking <span class="app-count">· 1 app</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>BookThis</h4>
+                  <p>Book sports facilities — courts, fields, schedules, payments, teams.</p>
+                  <div class="project-links"><a href="https://apps.apple.com/us/app/bookthis/id6742168334"
+                      target="_blank" rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.bookthis.android" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <polyline points="6 9 6 2 18 2 18 9" />
+                  <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+                  <rect x="6" y="14" width="12" height="8" />
+                </svg></div>
+              <h3>Printing & Design <span class="app-count">· 1 app</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>Sublimation Designer & Printer</h4>
+                  <p>All-in-one sublimation design tool with library, printing, and 3D mockup.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/us/app/sublimation-designer-printer/id6502040758" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.design.space.sublimation" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                </svg></div>
+              <h3>Books & Reading <span class="app-count">· 1 app</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>Gufhtugu</h4>
+                  <p>Book library with Stripe purchase and interactive reading interface.</p>
+                  <div class="project-links"><a href="https://gufhtugu.com" target="_blank" rel="noopener">Website</a><a
+                      href="https://apps.apple.com/us/app/gufhtugu-urdu-books-library/id1614142319" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.gufhtugupublication" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <path
+                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg></div>
+              <h3>Utility <span class="app-count">· 2 apps</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>Cleaner</h4>
+                  <p>Photo gallery cleanup — swipe to sort, smart detection, offline privacy.</p>
+                  <div class="project-links"><a
+                      href="https://apps.apple.com/pk/app/cleaner-phone-storage-cleanup/id6445917429" target="_blank"
+                      rel="noopener">App Store</a></div>
+                </div>
+                <div class="project-card">
+                  <h4>Rover</h4>
+                  <p>Utility alert app for smart notifications and monitoring.</p>
+                  <div class="project-links"><a href="https://apps.apple.com/us/app/rover-alert/id6754818166"
+                      target="_blank" rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.roveralert.android" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                </svg></div>
+              <h3>Kids & Entertainment <span class="app-count">· 1 app</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>Bearlot's Furry Friends</h4>
+                  <p>Fun app for kids — virtual pets, adventures, and creativity.</p>
+                  <div class="project-links"><a href="https://www.bearlotsfurryfriends.com" target="_blank"
+                      rel="noopener">Website</a><a
+                      href="https://apps.apple.com/ae/app/bearlots-furry-friends/id6450854331" target="_blank"
+                      rel="noopener">App Store</a><a
+                      href="https://play.google.com/store/apps/details?id=com.bearlots.furry.friends" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <rect x="1" y="3" width="15" height="13" />
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+                  <circle cx="5.5" cy="18.5" r="2.5" />
+                  <circle cx="18.5" cy="18.5" r="2.5" />
+                </svg></div>
+              <h3>Logistics <span class="app-count">· 1 app</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>OKI DOKI</h4>
+                  <p>Logistics platform with customer and transporter apps.</p>
+                  <div class="project-links"><a href="https://apps.apple.com/us/app/okidoki-customer/id6633430847"
+                      target="_blank" rel="noopener">Customer</a><a
+                      href="https://apps.apple.com/us/app/okidoki-transporter/id6633431015" target="_blank"
+                      rel="noopener">Transporter</a><a
+                      href="https://play.google.com/store/apps/details?id=com.itx360.okidoki.mobile" target="_blank"
+                      rel="noopener">Play Store</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-category"><button class="accordion-header">
+            <div class="accordion-header-left">
+              <div class="accordion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  width="18" height="18">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg></div>
+              <h3>CRM & Business <span class="app-count">· 1 app</span></h3>
+            </div><svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              <div class="accordion-cards">
+                <div class="project-card">
+                  <h4>Wise Bird</h4>
+                  <p>Business and CRM management platform for streamlined operations.</p>
+                  <div class="project-links"><a href="https://wisebirdapp.net" target="_blank"
+                      rel="noopener">Website</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QA APPROACH ============ -->
+  <section class="qa section" id="qa">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">Quality Assurance</p>
+        <h2 class="section-title">Rigorous <span class="accent-text">Testing Approach</span></h2>
+        <p class="section-subtitle">Multi-layered QA ensures every app is reliable, performant, and user-friendly before
+          launch.</p>
+      </div>
+      <div class="qa-grid">
+        <div class="qa-card fade-in">
+          <div class="qa-number">01</div>
+          <h3>Integration Testing</h3>
+          <p>Testing combined parts of the application to verify they work correctly together.</p>
+        </div>
+        <div class="qa-card fade-in">
+          <div class="qa-number">02</div>
+          <h3>System Testing</h3>
+          <p>Testing the entire application as a whole to ensure it meets specified requirements.</p>
+        </div>
+        <div class="qa-card fade-in">
+          <div class="qa-number">03</div>
+          <h3>Regression Testing</h3>
+          <p>Ensuring new code changes do not adversely affect existing functionalities.</p>
+        </div>
+        <div class="qa-card fade-in">
+          <div class="qa-number">04</div>
+          <h3>Performance Testing</h3>
+          <p>Testing for speed, responsiveness, and stability under various conditions.</p>
+        </div>
+        <div class="qa-card fade-in">
+          <div class="qa-number">05</div>
+          <h3>Security Testing</h3>
+          <p>Testing for vulnerabilities and ensuring data protection and privacy requirements are met.</p>
+        </div>
+        <div class="qa-card fade-in">
+          <div class="qa-number">06</div>
+          <h3>30-Day Free Support</h3>
+          <p>Free bug fixing service for 30 days after project completion, along with detailed QA documentation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLIENTS ============ -->
+  <section class="clients section" id="clients">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">Trusted By</p>
+        <h2 class="section-title">My <span class="accent-text">Clients</span></h2>
+      </div>
+      <div class="clients-grid fade-in">
+        <a href="https://americanresolvemobile.com/index.html" target="_blank" rel="noopener" class="client-card">
+          <div class="client-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              width="28" height="28">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg></div><span>American Resolve Mobile</span><small>americanresolvemobile.com</small>
+        </a>
+        <a href="https://www.sevenmileapps.com" target="_blank" rel="noopener" class="client-card">
+          <div class="client-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              width="28" height="28">
+              <polygon points="12 2 2 7 12 12 22 7 12 2" />
+              <polyline points="2 17 12 22 22 17" />
+              <polyline points="2 12 12 17 22 12" />
+            </svg></div><span>Seven Mile Apps</span><small>sevenmileapps.com</small>
+        </a>
+        <a href="https://www.eblock6.com" target="_blank" rel="noopener" class="client-card">
+          <div class="client-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              width="28" height="28">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+            </svg></div><span>eBlock6</span><small>eblock6.com</small>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA / CONTACT ============ -->
+  <section class="cta section" id="contact">
+    <div class="container">
+      <div class="cta-content fade-in">
+        <p class="section-label">Let's Work Together</p>
+        <h2 class="section-title">Ready to Build Your <span class="accent-text">Next App?</span></h2>
+        <p class="section-subtitle">Whether you need a mobile app, web application, or a full-stack solution — I'm here
+          to help you bring your vision to life.</p>
+        <div class="cta-actions">
+          <a href="https://calendly.com/alibilcg/30min" target="_blank" rel="noopener"
+            class="btn btn-primary btn-lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              width="20" height="20">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg> Schedule a Meeting</a>
+          <a href="https://wa.me/923328835735" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg"><svg
+              viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg> Chat on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand"><span class="logo-icon">AM</span><span>Aqib Majeed</span></div>
+        <p class="footer-copy">&copy; 2026 Aqib Majeed. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLOATING BUTTON ============ -->
+  <a href="https://wa.me/923328835735" target="_blank" rel="noopener" class="whatsapp-float" id="whatsappFloat"
+    aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white" width="28" height="28">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
